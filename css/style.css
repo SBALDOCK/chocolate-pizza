@@ -1,0 +1,67 @@
+html{
+  width:960px;
+}
+header{
+  height:100px;
+  width: 100%;
+}
+.headGroup{
+  height:50px;
+  }
+.headLogo{
+  float: left;
+  margin-top: 15px;
+  width:50px;
+
+}
+.headText{
+  width:350px;
+  font-family: 'Pacifico', cursive;
+ 
+}
+#mainTitle{
+  margin: 0px;
+}
+h6{
+  font-size:7px;
+  margin-left: 50px;
+  margin-bottom:50px;
+}
+.linkImage{
+  margin-left:670px;
+}
+#rss{
+  margin-left:8px;
+}
+
+#chocPic{
+  width:100%;
+}
+
+.recipe{
+  position: relative;
+  
+}
+#list{
+  position: absolute;
+}
+#text1{
+  position: absolute;
+  z-index: 100;
+  left:75px;
+  top: 30px;
+  font-family: 'Comic Neue', cursive;
+  list-style-type: none;
+}
+#text2{
+  position: absolute;
+  left:500px;
+  top: 30px;
+  font-family: 'Comic Neue', cursive;
+  list-style-type: none;
+}
+li{
+
+}
+.listItem{
+}
