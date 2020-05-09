@@ -1,5 +1,7 @@
 html{
-  width:960px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 720px;
 }
 header{
   height:100px;
@@ -8,60 +10,161 @@ header{
 .headGroup{
   height:50px;
   }
+
 .headLogo{
   float: left;
-  margin-top: 15px;
-  width:50px;
+  margin-right: 10px;
+  margin-top: 20px;
 
 }
 .headText{
-  width:350px;
+  width:250px;
   font-family: 'Pacifico', cursive;
  
 }
 #mainTitle{
-  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-bottom: -10px;
 }
 h6{
-  font-size:7px;
+  float: left;
+  font-family: sans-serif;
+  font-weight: lighter;
   margin-left: 50px;
-  margin-bottom:50px;
+  margin-top: -22px;
+  width: 225px;
 }
 .linkImage{
-  margin-left:670px;
+  margin-left:470px;
+  margin-top: -20px;
 }
 #rss{
   margin-left:8px;
 }
 
+.posted{
+  color: rgb(176, 172, 172);
+  font-size: 10px;
+}
+
+#chocopizza{
+  float: left;
+}
+
+.bodybanner{
+  width: 720px;
+}
+
+#printicon{
+margin-left: 660px;
+margin-top: -22px;
+}
+
+#printer{
+float: left;
+}
+
+main{
+  margin-top: 5px;
+}
+
+.gradient{
+  height: 7px;
+  width: 700px;
+  background: repeating-linear-gradient(
+  45deg,
+  #ecedf2,
+  #ecedf2, 1px,
+  #959698 2px,
+  #959698  1px
+);
+}
+
+.paragraph{
+  text-indent: 20px;
+}
+
 #chocPic{
+  margin-top: 20px;
   width:100%;
 }
 
 .recipe{
+  margin-bottom: 300px;
   position: relative;
-  
-}
+} 
+.strike{
+  text-decoration: line-through;
+  }
+
+
 #list{
   position: absolute;
+  width: 720px;
 }
 #text1{
+  font-size: 17px;
   position: absolute;
   z-index: 100;
-  left:75px;
+  left:10px;
   top: 30px;
   font-family: 'Comic Neue', cursive;
   list-style-type: none;
 }
 #text2{
+  font-size: 17px;
   position: absolute;
-  left:500px;
+  left:320px;
+  margin-bottom: 100px;
   top: 30px;
   font-family: 'Comic Neue', cursive;
   list-style-type: none;
 }
-li{
+
+.bio{
+  width: 720px;
+}
+
+#enthusiast{
+  float: left;
+  margin-top: -20px;
+  width: 500px;
+}
+
+#vanessa{
+  float: left;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+#share:link, a:visited{
+  background-color:#BB6F57;
+  color: white;
+  font-size: 10px;
+  float: left;
+  padding: 14px 25px;
+  margin-left: 600px;
+  margin-top: -55px;
+  text-align: center;
+  text-decoration: none;
 
 }
-.listItem{
+
+#bottomgradient{
+  margin-bottom: 50px;
+}
+
+h3{
+  margin-top: -20px;
+}
+
+footer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#copyright{
+  font-size: 10px;
 }
